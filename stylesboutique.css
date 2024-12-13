@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    position: relative;
+    background-image: url('https://sf.lechasseurfrancais.com/wp-content/uploads/2023/03/pecheur.jpg'); /* Remplacez par votre image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+}
+header .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    position: absolute;
+    align-items: center;    
+
+}
